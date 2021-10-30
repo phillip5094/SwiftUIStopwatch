@@ -11,6 +11,17 @@
 		D9F65BAF272DA2A8009AE4F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BAE272DA2A8009AE4F0 /* ContentView.swift */; };
 		D9F65BB1272DA2AA009AE4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F65BB0272DA2AA009AE4F0 /* Assets.xcassets */; };
 		D9F65BB4272DA2AA009AE4F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F65BB3272DA2AA009AE4F0 /* Preview Assets.xcassets */; };
+		D9F65BC0272DA402009AE4F0 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BBF272DA402009AE4F0 /* Stopwatch.swift */; };
+		D9F65BC2272DA41A009AE4F0 /* StopwatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BC1272DA41A009AE4F0 /* StopwatchManager.swift */; };
+		D9F65BC4272DA50B009AE4F0 /* ControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BC3272DA50A009AE4F0 /* ControlButton.swift */; };
+		D9F65BC6272DA594009AE4F0 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BC5272DA594009AE4F0 /* TimeView.swift */; };
+		D9F65BCA272DAA38009AE4F0 /* LapTimeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BC9272DAA38009AE4F0 /* LapTimeRow.swift */; };
+		D9F65BCC272DAA4F009AE4F0 /* LapTimeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BCB272DAA4F009AE4F0 /* LapTimeList.swift */; };
+		D9F65BCE272DAC70009AE4F0 /* StopwatchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BCD272DAC70009AE4F0 /* StopwatchControl.swift */; };
+		D9F65BD0272DAC75009AE4F0 /* LeftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BCF272DAC75009AE4F0 /* LeftButton.swift */; };
+		D9F65BD2272DAC7D009AE4F0 /* RightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BD1272DAC7D009AE4F0 /* RightButton.swift */; };
+		D9F65BD4272DADFF009AE4F0 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BD3272DADFF009AE4F0 /* StopwatchView.swift */; };
+		D9F65BD6272DAE22009AE4F0 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BD5272DAE22009AE4F0 /* ElapsedTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		D9F65BAE272DA2A8009AE4F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9F65BB0272DA2AA009AE4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F65BB3272DA2AA009AE4F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9F65BBF272DA402009AE4F0 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		D9F65BC1272DA41A009AE4F0 /* StopwatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchManager.swift; sourceTree = "<group>"; };
+		D9F65BC3272DA50A009AE4F0 /* ControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButton.swift; sourceTree = "<group>"; };
+		D9F65BC5272DA594009AE4F0 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		D9F65BC9272DAA38009AE4F0 /* LapTimeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTimeRow.swift; sourceTree = "<group>"; };
+		D9F65BCB272DAA4F009AE4F0 /* LapTimeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTimeList.swift; sourceTree = "<group>"; };
+		D9F65BCD272DAC70009AE4F0 /* StopwatchControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchControl.swift; sourceTree = "<group>"; };
+		D9F65BCF272DAC75009AE4F0 /* LeftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftButton.swift; sourceTree = "<group>"; };
+		D9F65BD1272DAC7D009AE4F0 /* RightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightButton.swift; sourceTree = "<group>"; };
+		D9F65BD3272DADFF009AE4F0 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		D9F65BD5272DAE22009AE4F0 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,8 @@
 			children = (
 				D9F65BAC272DA2A8009AE4F0 /* StopwatchApp.swift */,
 				D9F65BAE272DA2A8009AE4F0 /* ContentView.swift */,
+				D9F65BBC272DA3D6009AE4F0 /* View */,
+				D9F65BBA272DA3CB009AE4F0 /* Model */,
 				D9F65BB0272DA2AA009AE4F0 /* Assets.xcassets */,
 				D9F65BB2272DA2AA009AE4F0 /* Preview Content */,
 			);
@@ -65,6 +89,63 @@
 				D9F65BB3272DA2AA009AE4F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9F65BBA272DA3CB009AE4F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9F65BC1272DA41A009AE4F0 /* StopwatchManager.swift */,
+				D9F65BBF272DA402009AE4F0 /* Stopwatch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9F65BBC272DA3D6009AE4F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9F65BBD272DA3DC009AE4F0 /* Stopwatch */,
+				D9F65BC7272DA618009AE4F0 /* StopwatchControl */,
+				D9F65BC8272DA652009AE4F0 /* LapTimes */,
+				D9F65BBE272DA3EF009AE4F0 /* Helper */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9F65BBD272DA3DC009AE4F0 /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				D9F65BD3272DADFF009AE4F0 /* StopwatchView.swift */,
+				D9F65BD5272DAE22009AE4F0 /* ElapsedTimeView.swift */,
+			);
+			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		D9F65BBE272DA3EF009AE4F0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D9F65BC3272DA50A009AE4F0 /* ControlButton.swift */,
+				D9F65BC5272DA594009AE4F0 /* TimeView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D9F65BC7272DA618009AE4F0 /* StopwatchControl */ = {
+			isa = PBXGroup;
+			children = (
+				D9F65BCD272DAC70009AE4F0 /* StopwatchControl.swift */,
+				D9F65BCF272DAC75009AE4F0 /* LeftButton.swift */,
+				D9F65BD1272DAC7D009AE4F0 /* RightButton.swift */,
+			);
+			path = StopwatchControl;
+			sourceTree = "<group>";
+		};
+		D9F65BC8272DA652009AE4F0 /* LapTimes */ = {
+			isa = PBXGroup;
+			children = (
+				D9F65BCB272DAA4F009AE4F0 /* LapTimeList.swift */,
+				D9F65BC9272DAA38009AE4F0 /* LapTimeRow.swift */,
+			);
+			path = LapTimes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +219,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F65BAF272DA2A8009AE4F0 /* ContentView.swift in Sources */,
+				D9F65BD6272DAE22009AE4F0 /* ElapsedTimeView.swift in Sources */,
+				D9F65BD2272DAC7D009AE4F0 /* RightButton.swift in Sources */,
+				D9F65BD4272DADFF009AE4F0 /* StopwatchView.swift in Sources */,
+				D9F65BC2272DA41A009AE4F0 /* StopwatchManager.swift in Sources */,
+				D9F65BCA272DAA38009AE4F0 /* LapTimeRow.swift in Sources */,
+				D9F65BCE272DAC70009AE4F0 /* StopwatchControl.swift in Sources */,
+				D9F65BD0272DAC75009AE4F0 /* LeftButton.swift in Sources */,
+				D9F65BC4272DA50B009AE4F0 /* ControlButton.swift in Sources */,
+				D9F65BCC272DAA4F009AE4F0 /* LapTimeList.swift in Sources */,
+				D9F65BC0272DA402009AE4F0 /* Stopwatch.swift in Sources */,
 				D9F65BAD272DA2A8009AE4F0 /* StopwatchApp.swift in Sources */,
+				D9F65BC6272DA594009AE4F0 /* TimeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +367,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,6 +397,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

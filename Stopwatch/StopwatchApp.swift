@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct StopwatchApp: App {
+    @StateObject private var stopwatchManager = StopwatchManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(stopwatchManager)
+                .preferredColorScheme(.dark)
         }
     }
 }
