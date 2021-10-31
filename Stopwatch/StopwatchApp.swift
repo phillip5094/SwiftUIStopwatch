@@ -17,5 +17,9 @@ struct StopwatchApp: App {
                 .environmentObject(stopwatchManager)
                 .preferredColorScheme(.dark)
         }
+        
+        #if os(watchOS)
+        WKNotificationScene(controller: NotificationController.self, category: "myCategory")
+        #endif
     }
 }
