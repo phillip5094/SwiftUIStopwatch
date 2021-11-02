@@ -24,6 +24,7 @@ struct StopwatchView: View {
                         lapTimes: stopwatchManager.stopwatch.lapTimes,
                         currentLapTime: stopwatchManager.stopwatch.lapTime)
         }
+        .focusedValue(\.stopwatchMode, $stopwatchManager.mode)
     }
 }
 

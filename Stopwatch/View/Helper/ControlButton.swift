@@ -42,6 +42,7 @@ struct ControlButton: View {
                         )
                 }
             }
+            .buttonStyle(.plain)
             .position(x: geometry.frame(in: .local).midX, y: geometry.frame(in: .local).midY)
         }
         .scaledToFit()

@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		D933F033272FA9E700E04512 /* ComplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933F032272FA9E700E04512 /* ComplicationView.swift */; };
+		D97CE4DB272FE09D002EA8BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CE4DA272FE09D002EA8BF /* ContentView.swift */; };
+		D97CE4DD272FE0A0002EA8BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97CE4DC272FE0A0002EA8BF /* Assets.xcassets */; };
+		D97CE4E0272FE0A0002EA8BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97CE4DF272FE0A0002EA8BF /* Preview Assets.xcassets */; };
+		D97CE4E5272FE0B6002EA8BF /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BD5272DAE22009AE4F0 /* ElapsedTimeView.swift */; };
+		D97CE4E6272FE0B6002EA8BF /* ControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BC3272DA50A009AE4F0 /* ControlButton.swift */; };
+		D97CE4E7272FE0B6002EA8BF /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BBF272DA402009AE4F0 /* Stopwatch.swift */; };
+		D97CE4E8272FE0B6002EA8BF /* StopwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BAC272DA2A8009AE4F0 /* StopwatchApp.swift */; };
+		D97CE4E9272FE0B6002EA8BF /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BD3272DADFF009AE4F0 /* StopwatchView.swift */; };
+		D97CE4EA272FE0B6002EA8BF /* LapTimeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BC9272DAA38009AE4F0 /* LapTimeRow.swift */; };
+		D97CE4EB272FE0B6002EA8BF /* RightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BD1272DAC7D009AE4F0 /* RightButton.swift */; };
+		D97CE4EC272FE0B6002EA8BF /* LeftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BCF272DAC75009AE4F0 /* LeftButton.swift */; };
+		D97CE4ED272FE0B6002EA8BF /* LapTimeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BCB272DAA4F009AE4F0 /* LapTimeList.swift */; };
+		D97CE4EE272FE0B6002EA8BF /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BC5272DA594009AE4F0 /* TimeView.swift */; };
+		D97CE4EF272FE0B6002EA8BF /* StopwatchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BCD272DAC70009AE4F0 /* StopwatchControl.swift */; };
+		D97CE4F0272FE0B6002EA8BF /* StopwatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BC1272DA41A009AE4F0 /* StopwatchManager.swift */; };
 		D9991E69272EEE910006CC92 /* StopwatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BC1272DA41A009AE4F0 /* StopwatchManager.swift */; };
 		D9991E6A272EEE910006CC92 /* StopwatchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BCD272DAC70009AE4F0 /* StopwatchControl.swift */; };
 		D9991E6B272EEE910006CC92 /* LeftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BCF272DAC75009AE4F0 /* LeftButton.swift */; };
@@ -20,6 +35,9 @@
 		D9991E73272EEE910006CC92 /* RightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BD1272DAC7D009AE4F0 /* RightButton.swift */; };
 		D9991E74272EEE910006CC92 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BD3272DADFF009AE4F0 /* StopwatchView.swift */; };
 		D9991E75272EEEBB0006CC92 /* StopwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BAC272DA2A8009AE4F0 /* StopwatchApp.swift */; };
+		D9A7B0C92731A65500C79FE3 /* StopwatchCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7B0C72731A65500C79FE3 /* StopwatchCommand.swift */; };
+		D9A7B0CA2731AD4200C79FE3 /* StopwatchCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7B0C72731A65500C79FE3 /* StopwatchCommand.swift */; };
+		D9A7B0CC2731AF8400C79FE3 /* StopwatchSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7B0CB2731AF8400C79FE3 /* StopwatchSettings.swift */; };
 		D9F65BAD272DA2A8009AE4F0 /* StopwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BAC272DA2A8009AE4F0 /* StopwatchApp.swift */; };
 		D9F65BAF272DA2A8009AE4F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BAE272DA2A8009AE4F0 /* ContentView.swift */; };
 		D9F65BB1272DA2AA009AE4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F65BB0272DA2AA009AE4F0 /* Assets.xcassets */; };
@@ -90,6 +108,13 @@
 
 /* Begin PBXFileReference section */
 		D933F032272FA9E700E04512 /* ComplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationView.swift; sourceTree = "<group>"; };
+		D97CE4D6272FE09D002EA8BF /* MacStopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacStopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97CE4DA272FE09D002EA8BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D97CE4DC272FE0A0002EA8BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D97CE4DF272FE0A0002EA8BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D97CE4E1272FE0A0002EA8BF /* MacStopwatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacStopwatch.entitlements; sourceTree = "<group>"; };
+		D9A7B0C72731A65500C79FE3 /* StopwatchCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchCommand.swift; sourceTree = "<group>"; };
+		D9A7B0CB2731AF8400C79FE3 /* StopwatchSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchSettings.swift; sourceTree = "<group>"; };
 		D9F65BA9272DA2A8009AE4F0 /* Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F65BAC272DA2A8009AE4F0 /* StopwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchApp.swift; sourceTree = "<group>"; };
 		D9F65BAE272DA2A8009AE4F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +145,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D97CE4D3272FE09D002EA8BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9F65BA6272DA2A8009AE4F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,12 +169,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D97CE4D7272FE09D002EA8BF /* MacStopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				D97CE4DA272FE09D002EA8BF /* ContentView.swift */,
+				D9A7B0C72731A65500C79FE3 /* StopwatchCommand.swift */,
+				D9A7B0CB2731AF8400C79FE3 /* StopwatchSettings.swift */,
+				D97CE4DC272FE0A0002EA8BF /* Assets.xcassets */,
+				D97CE4E1272FE0A0002EA8BF /* MacStopwatch.entitlements */,
+				D97CE4DE272FE0A0002EA8BF /* Preview Content */,
+			);
+			path = MacStopwatch;
+			sourceTree = "<group>";
+		};
+		D97CE4DE272FE0A0002EA8BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D97CE4DF272FE0A0002EA8BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		D9F65BA0272DA2A8009AE4F0 = {
 			isa = PBXGroup;
 			children = (
 				D9F65BAB272DA2A8009AE4F0 /* Stopwatch */,
 				D9F65C1B272DC3A9009AE4F0 /* WatchStopwatch */,
 				D9F65C26272DC3AB009AE4F0 /* WatchStopwatch WatchKit Extension */,
+				D97CE4D7272FE09D002EA8BF /* MacStopwatch */,
 				D9F65BAA272DA2A8009AE4F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -153,6 +207,7 @@
 				D9F65BA9272DA2A8009AE4F0 /* Stopwatch.app */,
 				D9F65C1A272DC3A9009AE4F0 /* WatchStopwatch.app */,
 				D9F65C22272DC3AB009AE4F0 /* WatchStopwatch WatchKit Extension.appex */,
+				D97CE4D6272FE09D002EA8BF /* MacStopwatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,6 +325,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D97CE4D5272FE09D002EA8BF /* MacStopwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97CE4E4272FE0A0002EA8BF /* Build configuration list for PBXNativeTarget "MacStopwatch" */;
+			buildPhases = (
+				D97CE4D2272FE09D002EA8BF /* Sources */,
+				D97CE4D3272FE09D002EA8BF /* Frameworks */,
+				D97CE4D4272FE09D002EA8BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacStopwatch;
+			productName = MacStopwatch;
+			productReference = D97CE4D6272FE09D002EA8BF /* MacStopwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D9F65BA8272DA2A8009AE4F0 /* Stopwatch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9F65BB7272DA2AA009AE4F0 /* Build configuration list for PBXNativeTarget "Stopwatch" */;
@@ -333,6 +405,9 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					D97CE4D5272FE09D002EA8BF = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					D9F65BA8272DA2A8009AE4F0 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -360,11 +435,21 @@
 				D9F65BA8272DA2A8009AE4F0 /* Stopwatch */,
 				D9F65C19272DC3A9009AE4F0 /* WatchStopwatch */,
 				D9F65C21272DC3AB009AE4F0 /* WatchStopwatch WatchKit Extension */,
+				D97CE4D5272FE09D002EA8BF /* MacStopwatch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D97CE4D4272FE09D002EA8BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97CE4E0272FE0A0002EA8BF /* Preview Assets.xcassets in Resources */,
+				D97CE4DD272FE0A0002EA8BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9F65BA7272DA2A8009AE4F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,6 +479,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D97CE4D2272FE09D002EA8BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97CE4E6272FE0B6002EA8BF /* ControlButton.swift in Sources */,
+				D97CE4E5272FE0B6002EA8BF /* ElapsedTimeView.swift in Sources */,
+				D97CE4EC272FE0B6002EA8BF /* LeftButton.swift in Sources */,
+				D97CE4EF272FE0B6002EA8BF /* StopwatchControl.swift in Sources */,
+				D97CE4EA272FE0B6002EA8BF /* LapTimeRow.swift in Sources */,
+				D97CE4EE272FE0B6002EA8BF /* TimeView.swift in Sources */,
+				D97CE4E9272FE0B6002EA8BF /* StopwatchView.swift in Sources */,
+				D9A7B0C92731A65500C79FE3 /* StopwatchCommand.swift in Sources */,
+				D97CE4DB272FE09D002EA8BF /* ContentView.swift in Sources */,
+				D97CE4ED272FE0B6002EA8BF /* LapTimeList.swift in Sources */,
+				D97CE4E8272FE0B6002EA8BF /* StopwatchApp.swift in Sources */,
+				D97CE4F0272FE0B6002EA8BF /* StopwatchManager.swift in Sources */,
+				D97CE4EB272FE0B6002EA8BF /* RightButton.swift in Sources */,
+				D97CE4E7272FE0B6002EA8BF /* Stopwatch.swift in Sources */,
+				D9A7B0CC2731AF8400C79FE3 /* StopwatchSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9F65BA5272DA2A8009AE4F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,6 +512,7 @@
 				D9F65BC2272DA41A009AE4F0 /* StopwatchManager.swift in Sources */,
 				D9F65BCA272DAA38009AE4F0 /* LapTimeRow.swift in Sources */,
 				D9F65BCE272DAC70009AE4F0 /* StopwatchControl.swift in Sources */,
+				D9A7B0CA2731AD4200C79FE3 /* StopwatchCommand.swift in Sources */,
 				D9F65BD0272DAC75009AE4F0 /* LeftButton.swift in Sources */,
 				D9F65BC4272DA50B009AE4F0 /* ControlButton.swift in Sources */,
 				D9F65BCC272DAA4F009AE4F0 /* LapTimeList.swift in Sources */,
@@ -454,6 +562,64 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		D97CE4E2272FE0A0002EA8BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacStopwatch/MacStopwatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacStopwatch/Preview Content\"";
+				DEVELOPMENT_TEAM = KYG7C4ND55;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = philip.chung.MacStopwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D97CE4E3272FE0A0002EA8BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacStopwatch/MacStopwatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacStopwatch/Preview Content\"";
+				DEVELOPMENT_TEAM = KYG7C4ND55;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = philip.chung.MacStopwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		D9F65BB5272DA2AA009AE4F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -751,6 +917,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D97CE4E4272FE0A0002EA8BF /* Build configuration list for PBXNativeTarget "MacStopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97CE4E2272FE0A0002EA8BF /* Debug */,
+				D97CE4E3272FE0A0002EA8BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D9F65BA4272DA2A8009AE4F0 /* Build configuration list for PBXProject "Stopwatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
