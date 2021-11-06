@@ -2,7 +2,7 @@
 
 SwiftUI 기반 iOS, watchOS, macOS에서 동작하는 Stopwatch 앱 입니다. 
 
-## Requirments
+## Requirement
 
 * Xcode 13.1
 * iOS 15.0
